@@ -27,7 +27,6 @@ bootstrap: used by the appModule only to declare what component will be displaye
   ],
   imports: [
     BrowserModule,
-    ElementsModule,
     CollectionsModule,
     AppRoutingModule,
   ],
