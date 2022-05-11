@@ -14,7 +14,7 @@ import { CollectionsHomeComponent } from './collections-home/collections-home.co
     CollectionsRoutingModule
   ],
   exports: [
-    CollectionsHomeComponent
+    //CollectionsHomeComponent
   ]
 
 })

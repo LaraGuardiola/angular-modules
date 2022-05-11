@@ -13,6 +13,8 @@ import { CollectionsModule } from './collections/collections.module';
 declarations: tells angular what components, pipes, directives are in the module
 imports: tells angular what other modules are needed to run the module
 exports: tells angular what components, pipes, directives this module makes available to other modules
+providers: Old way of connecting modules and services in angular
+bootstrap: used by the appModule only to declare what component will be displayed first
 */
 
 @NgModule({
