@@ -4,8 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ElementsModule } from './elements/elements.module';
+import { CollectionsModule } from './collections/collections.module';
 
-//process to show another module. first export the module, then import it on appModule and add it to the imports array
+//process to show another module. first create module with ng generate component nameofthenmodule/nameofthecomponent
+// then export the module, then import it on appModule and add it to the imports array, finally add it to the app.component template
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { ElementsModule } from './elements/elements.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ElementsModule
+    ElementsModule,
+    CollectionsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
