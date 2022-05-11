@@ -1,3 +1,12 @@
-<a routerLink="/elements">ELEMENTS</a>
-<a routerLink="/collections"> COLLECTIONS</a>
-<router-outlet></router-outlet>
+<!-- routerLink marks the path for the user, routerLinkActive adds the specified class when active (when you are in the marked route) -->
+<div class="ui container">
+    <div class="ui secondary pointing menu">
+        <a routerLink="/elements" routerLinkActive="active" class="item">ELEMENTS</a>
+        <a routerLink="/collections" routerLinkActive="active" class="item"> COLLECTIONS</a>
+    </div>
+    <div class="ui segment">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+
