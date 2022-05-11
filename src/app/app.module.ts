@@ -9,6 +9,12 @@ import { CollectionsModule } from './collections/collections.module';
 //process to show another module. first create module with ng generate component nameofthenmodule/nameofthecomponent
 // then export the module, then import it on appModule and add it to the imports array, finally add it to the app.component template
 
+/* things you can find in @ngModule
+declarations: tells angular what components, pipes, directives are in the module
+imports: tells angular what other modules are needed to run the module
+exports: tells angular what components, pipes, directives this module makes available to other modules
+*/
+
 @NgModule({
   declarations: [
     AppComponent
