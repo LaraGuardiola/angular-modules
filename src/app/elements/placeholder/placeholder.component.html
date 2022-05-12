@@ -1,9 +1,13 @@
 <div class="ui placeholder">
     <div *ngIf="header" class="image header">
-        <div class="line"></div>
+        <div *appTimes="1" class="line"></div>
         <div class="line"></div>
     </div>
     <div class="paragraph">
+        <label for="">{{placeholderTitle}}</label>
         <div *appTimes="lines" class="line"></div>
     </div>
 </div>
+
+<!-- using structural directive ngIf evaluating header property (PlaceholderComponent inside same module)-->
+<!-- using custom directive times to print an specified number of lines from the elements component-->
