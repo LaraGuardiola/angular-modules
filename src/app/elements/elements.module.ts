@@ -6,6 +6,7 @@ import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementsHomeComponent } from './elements-home/elements-home.component';
 import { PlaceholderComponent } from './placeholder/placeholder.component';
 import { TimesDirective } from './times.directive';
+import { SegmentComponent } from './segment/segment.component';
 
 //when using routers there is no need to export the ElementsHomeComponent
 //just set the path and the component in the elements-routing.module.ts
@@ -14,7 +15,8 @@ import { TimesDirective } from './times.directive';
   declarations: [
     ElementsHomeComponent,
     PlaceholderComponent,
-    TimesDirective
+    TimesDirective,
+    SegmentComponent
   ],
   imports: [
     CommonModule,

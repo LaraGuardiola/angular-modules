@@ -15,4 +15,4 @@ import { DividerComponent } from './divider/divider.component';
 })
 export class SharedModule { }
 
-//if we want to give access to other modules first we need to export the component, this case DividerComponent, and import it on the wished module ()
+//if we want to give access to other modules first we need to export the component, this case DividerComponent, and import this module it on the wished module (elements.module.ts this case)
