@@ -8,7 +8,7 @@
             <!--<a routerLink="./" routerLinkActive="active" class="item">Biography</a>
             <a routerLink="./companies" routerLinkActive="active" class="item">Companies</a>
             <a routerLink="./partners" routerLinkActive="active" class="item">Partners</a>-->
-            <a [routerLink]="[sameLevel]" routerLinkActive="active" class="item">Biography</a>
+            <a [routerLinkActiveOptions]="{ exact: true }" [routerLink]="[sameLevel]" routerLinkActive="active" class="item">Biography</a>
             <a [routerLink]="[companiesLevel]" routerLinkActive="active" class="item">Companies</a>
             <a [routerLink]="[partnersLevel]" routerLinkActive="active" class="item">Partners</a>
         </div>
