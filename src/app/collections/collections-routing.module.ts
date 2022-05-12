@@ -23,4 +23,4 @@ const routes: Routes = [
 })
 export class CollectionsRoutingModule { }
 
-//nesting the routing inside collections using property child
+//nesting the routing inside collections using key children
