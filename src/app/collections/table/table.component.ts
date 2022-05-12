@@ -9,6 +9,7 @@ export class TableComponent implements OnInit {
 
   @Input() data: any[] = []
   @Input() headers: any[] = []
+  @Input('class') classNames: string = ''
 
   constructor() { }
 
