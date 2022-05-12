@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CollectionsHomeComponent implements OnInit {
 
+  sameLevel: string = './'
+  companiesLevel: string = './companies'
+  partnersLevel: string = './partners'
+  
   data = [
     { name: 'James', age: 24, job: 'Designer', homeless: false},
     { name: 'John', age: 35, job: 'Software Evangelist', homeless: false},
