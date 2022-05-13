@@ -1,3 +1,13 @@
 <app-divider>Modal Component</app-divider>
 <button (click)="onClick()">Show Modal</button>
-<app-modal (close)="onClick()" *ngIf="modalOpen"></app-modal>
+<app-modal (close)="onClick()" *ngIf="modalOpen">
+    <div modalTitle>REUSABLE TITLE MAN</div>
+    <p>
+        THIS IS NOW REUSABLE THANKS TO THE ng-content element in the app modal template
+    </p>
+    <ng-container modalFooter>
+        <button class="ui button" (click)="onClick()">CLOSE ME!</button>
+    </ng-container>
+</app-modal>
+
+<!-- custom footer that will appear, otherswise if removed the one from the modal template appears-->

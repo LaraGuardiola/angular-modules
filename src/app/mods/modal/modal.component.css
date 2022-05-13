@@ -1,0 +1,13 @@
+.actions:empty{
+    display: none;
+}
+
+.actions-default {
+    display: none;
+}
+
+.actions:empty + .actions-default {
+    display: block;
+}
+
+/*if actions is empty(has no children) and sibling with class actions-default is present, then hide actions-default*/
