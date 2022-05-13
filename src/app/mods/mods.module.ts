@@ -5,13 +5,15 @@ import { SharedModule} from '../shared/shared.module';
 import { ModsRoutingModule } from './mods-routing.module';
 import { ModsHomeComponent } from './mods-home/mods-home.component';
 import { ModalComponent } from './modal/modal.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 //created with ng g m Elements --routing
 
 @NgModule({
   declarations: [
     ModsHomeComponent,
-    ModalComponent
+    ModalComponent,
+    AccordionComponent
   ],
   imports: [
     CommonModule,
