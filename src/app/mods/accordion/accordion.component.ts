@@ -16,7 +16,11 @@ export class AccordionComponent implements OnInit {
   }
 
   onClick(index: number): void {
-    this.openedItemIndex = index
+    if(index === this.openedItemIndex){
+      this.openedItemIndex = -1
+    }else{
+      this.openedItemIndex = index
+    }
   }
 
 }
