@@ -1,0 +1,6 @@
+:host:not(:first-of-type){
+    display: block;
+    margin-top: 20px;
+}
+
+/*added margin top for all dividers except for first son

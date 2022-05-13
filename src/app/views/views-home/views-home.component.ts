@@ -8,10 +8,23 @@ import { Component, OnInit } from '@angular/core';
 export class ViewsHomeComponent implements OnInit {
 
   stats: any = [
-    { value: 22, label: '# of Users'},
-    { value: 900, label: 'Revenue'},
-    { value: 50, label: 'Reviews'},
+    { value: 22, label: '# of Users' },
+    { value: 900, label: 'Revenue' },
+    { value: 50, label: 'Reviews' },
   ];
+  items: any = [
+    {
+      image: '/assets/images/couch.jpeg',
+      title: 'Couch',
+      description: 'This is a fantastic couch'
+    },
+    {
+      image: '/assets/images/dresser.jpeg',
+      title: 'Dresser',
+      description: 'This is a great dresser'
+    },
+    
+  ]
 
   constructor() { }
 
